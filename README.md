@@ -11,11 +11,11 @@ Although churned customers represent a smaller proportion of the customer base, 
 ## 🎯 Objective
 
 - Analyze overall customer churn.
-- Identify customer segments with higher churn rates.
+- Identify customer segments 
 - Analyze churn across tenure, contracts, services, and billing.
 - Identify major churn reasons.
-- Analyze churn among high-value customers.
-- Provide data-driven insights and recommendations to support customer retention.
+- Analyze high-value customers
+- Provide insights/recommendations
 
 ## 📊 Dataset
 
@@ -48,4 +48,11 @@ The dataset contains information about:
 - **Power BI** — Interactive dashboard
 - **GitHub** — Project documentation and version control
 
+## 📋 Requirements
 
+- Measure overall churn and retention
+- Identify segments associated with higher churn
+- Analyze customer behavior and subscription factors associated with churn
+- Understand why customers leave
+- Assess churn among high-value customers
+- Translate findings into retention insights and recommendations
