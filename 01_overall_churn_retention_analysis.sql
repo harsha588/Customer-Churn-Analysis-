@@ -3,6 +3,8 @@
 Overall Customer Churn & Retention Analysis
 ===============================================================================
 
+Objective 1: Analyze the overall customer churn
+
 Purpose:
     - To analyze the overall customer churn and retention situation.
     - To measure the total customer base and number of churned customers.
