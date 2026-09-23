@@ -1,4 +1,35 @@
--- BR-02: Identify Customer Segments with Higher Churn
+/*
+===============================================================================
+Customer Churn & Retention Analysis
+===============================================================================
+
+Objective 2: Identify Customer Segments with Higher Churn
+
+Purpose:
+    - Identify customer segments with relatively higher churn rates.
+    - Compare churn rates across different customer characteristics.
+
+Customer Characteristics Analyzed:
+    - Gender
+    - Senior Citizen
+    - Partner
+    - Dependents
+
+Business Questions:
+    1. Which customer segments have higher churn rates?
+    2. Does churn vary by senior-citizen status?
+    3. Does churn vary by partner or dependent status?
+    4. Which customer characteristics are associated with higher churn?
+
+SQL Functions Used:
+    - COUNT()
+    - SUM()
+    - ROUND()
+    - GROUP BY
+    - UNION ALL
+===============================================================================
+*/
+
 
 /*Requirement:
 Identify customer segments that have relatively higher churn rates.
@@ -84,7 +115,7 @@ select
 from customer_churn
 group by `Senior Citizen`
 
-UNION ALL
+union all
 select 
 		'Partner' as characteristic,
 		Partner as Status,
