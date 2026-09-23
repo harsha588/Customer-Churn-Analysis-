@@ -103,7 +103,7 @@ select
 from customer_churn
 group by Gender
 
-UNION ALL 
+union all
 select 
 		'Senior Citizen' as characteristic,
 		`Senior Citizen`,
