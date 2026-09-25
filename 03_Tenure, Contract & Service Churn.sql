@@ -1,6 +1,35 @@
-	/*Requirement:
-	Analyze how customer tenure, contract type, and subscribed services are associated with customer churn.
-*/
+/*
+===============================================================================
+Customer Churn & Retention Analysis
+===============================================================================
+
+Objective 3: Analyze Tenure, Contract & Service-Related Churn
+
+Purpose:
+    - Analyze how customer tenure is associated with churn.
+    - Compare churn rates across different contract types.
+    - Analyze churn among month-to-month customers.
+    - Compare churn rates across Internet Service types.
+    - Analyze whether additional services are associated with different
+      churn rates.
+
+Business Questions:
+    1. Which tenure groups have higher churn rates?
+    2. Which contract type has the highest churn?
+    3. Do month-to-month customers have higher churn?
+    4. Which Internet Service has higher churn?
+    5. Are services such as Tech Support or Online Security associated
+       with different churn rates?
+
+SQL Functions Used:
+    - CASE
+    - COUNT()
+    - SUM()
+    - ROUND()
+    - GROUP BY
+    - UNION ALL
+===============================================================================
+*/	
 
 select * 
 from customer_churn;
@@ -59,8 +88,7 @@ select
 			(sum(`Churn Label` = 'Yes')* 100.0	 / count(*),2)
         as `churn_rates`
         from customer_churn
-        group by `Tech Support`
-        
+        group by `Tech Support`      
 union all
 select 
 		'Online Backup' as service,
