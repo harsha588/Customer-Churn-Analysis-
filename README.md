@@ -70,7 +70,7 @@ The dataset contains information about:
 
 
 ## 🔄 Project Workflow
-
+```text 
 Raw Dataset
      -->
 Data Cleaning
@@ -84,6 +84,7 @@ Python EDA
 Power BI Dashboard
      -->
 Key Insights & Recommendations
+```
 
 ### Data Cleaning
 
