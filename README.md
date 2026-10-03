@@ -89,13 +89,33 @@ Data Cleaning
 
 The dataset was prepared before analysis by:
 
-Checking for missing values.
-Checking for duplicate customers.
-Validating customer records.
-Removing unnecessary geographic columns that were not required for the analysis.
-Checking numerical and categorical fields.
-Restoring/validating the Churn Value field.
-Validating churn labels and customer counts.
-Checking blank/null churn reasons.
+- Checking for missing values.
+- Checking for duplicate customers.
+- Validating customer records.
+- Removing unnecessary geographic columns that were not required for the analysis.
+- Checking numerical and categorical fields.
+- Restoring/validating the Churn Value field.
+- Validating churn labels and customer counts.
+- Checking blank/null churn reasons.
 
 The cleaned customer data was then used for SQL analysis, Python EDA, and Power BI visualization.
+
+
+SQL analysis was organized around five major objectives.
+
+Objective 1 — Overall Churn & Retention
+
+Questions analyzed:
+
+1. What is the total number of customers?
+2. How many customers have churned?
+3. What is the overall churn rate?
+4. What percentage of customers have been retained?
+
+Key metrics:
+
+Metric	          Value
+Total Customers	7,043
+Churned Customers	1,869
+Churn Rate	     26.54%
+Retention Rate 	73.46%
