@@ -69,7 +69,7 @@ The dataset contains information about:
 - Translate findings into retention insights and recommendations
 
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
 Raw Dataset
      ↓
@@ -85,7 +85,7 @@ Power BI Dashboard
      ↓
 Key Insights & Recommendations
 
-Data Cleaning
+### Data Cleaning
 
 The dataset was prepared before analysis by:
 
@@ -103,7 +103,7 @@ The cleaned customer data was then used for SQL analysis, Python EDA, and Power 
 
 SQL analysis was organized around five major objectives.
 
-#### Objective 1 — Overall Churn & Retention
+### Objective 1 — Overall Churn & Retention
 
 Questions analyzed:
 
@@ -121,7 +121,7 @@ Churn Rate	     26.54%
 Retention Rate 	73.46%
 
 
-#### Objective 2 — Customer Segments
+### Objective 2 — Customer Segments
 
 Customer characteristics analyzed:
 
@@ -133,7 +133,7 @@ Dependents
 The analysis compares customer counts and churn rates across these characteristics.
 
 
-#### Objective 3 — Tenure, Contract & Services
+### Objective 3 — Tenure, Contract & Services
 
 The analysis examined:
 
@@ -146,7 +146,7 @@ Online Security
 The analysis was used to identify groups with different observed churn rates.
 
 
-#### Objective 4 — Charges, Billing & Customer Value
+### Objective 4 — Charges, Billing & Customer Value
 
 The analysis examined:
 
@@ -158,7 +158,7 @@ Average CLTV of churned customers
 Churn rates among higher-value customer segments
 
 
-#### Objective 5 — Churn Reasons
+### Objective 5 — Churn Reasons
 
 The analysis examined:
 
@@ -190,7 +190,7 @@ Data visualization using Matplotlib and Seaborn
 
 The Python analysis provided additional exploratory insights before building the final Power BI dashboard.
 
-📊 Power BI Dashboard
+## 📊 Power BI Dashboard
 
 An interactive Power BI dashboard was developed to provide a business-level view of customer churn.
 
@@ -207,7 +207,7 @@ Customer filtering using slicers
 Dashboard Preview
 
 
-🔎 Key Findings
+## 🔎 Key Findings
 
 The dashboard and analysis identified several notable churn patterns.
 
