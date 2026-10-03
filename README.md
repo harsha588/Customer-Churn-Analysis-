@@ -237,3 +237,106 @@ The dataset contains:
 - 73.46% retention rate
 
 These findings describe observed associations in the dataset and should not be interpreted as proof that a particular characteristic causes churn.
+
+
+## 💡 Retention Insights & Recommendations
+
+### 1. Focus on Early-Tenure Customers
+
+Customers with 0–12 months of tenure show a higher observed churn rate.
+
+**Recommendation:**  
+Improve customer onboarding, early engagement, and support during the first year. Monitoring customer experience during the early stages of the relationship may help identify potential churn risks.
+
+### 2. Investigate Month-to-Month Customers
+
+Month-to-month customers show a substantially higher observed churn rate than customers with one-year and two-year contracts.
+
+**Recommendation:**  
+Investigate pricing, service experience, customer satisfaction, and contract-related factors for this segment. Consider opportunities to improve long-term customer engagement.
+
+### 3. Investigate Fiber Optic Customer Churn
+
+Fiber optic customers show a higher observed churn rate in this dataset.
+
+**Recommendation:**  
+Further investigate service quality, pricing, support experience, network reliability, and competitor offers among fiber optic customers.
+
+### 4. Address Common Churn Reasons
+
+Several reported churn reasons are related to competitors, service/support experience, pricing, and network or product dissatisfaction.
+
+**Recommendation:**  
+Use churn-reason data to prioritize areas for customer experience improvement and investigate recurring issues.
+
+### 5. Monitor High-Value Customers
+
+Customer Lifetime Value (CLTV) can help identify customers whose churn may have greater business significance.
+
+**Recommendation:**  
+Monitor churn among high-value customers and consider targeted retention strategies based on their service usage, tenure, and reported churn reasons.
+
+
+
+## 📁 Project Structure
+
+```text
+Customer-Churn-Analysis/
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_data_cleaning.sql
+│   ├── 02_overall_churn_retention.sql
+│   ├── 03_customer_segments.sql
+│   ├── 04_tenure_contract_service_churn.sql
+│   ├── 05_charges_billing_value_churn.sql
+│   └── 06_churn_reasons.sql
+│
+├── python/
+│   └── customer_churn_eda.ipynb
+│
+├── powerbi/
+│   └── Customer_Churn_Retention_Analysis.pbix
+│
+└── images/
+    └── customer_churn_dashboard.png
+
+
+---
+
+# 14. 📌 Project Status
+
+Since you have completed the project, keep this short:
+
+```markdown
+## 📌 Project Status
+
+**Completed** ✅
+
+- ✅ Data Cleaning
+- ✅ SQL Analysis
+- ✅ Python EDA
+- ✅ Power BI Dashboard
+- ✅ Key Findings
+- ✅ Retention Insights & Recommendations
+- ✅ GitHub Documentation
+
+
+
+## 👤 Author
+
+**Harsha R M**
+
+Aspiring Data Analyst
+
+- SQL
+- Python
+- Power BI
+- Excel
+
+
+### Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/harsha-r-m-645769249/)
+- [GitHub](https://github.com/)
