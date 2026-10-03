@@ -38,14 +38,25 @@ The dataset contains information about:
 - Churn reasons
 
 
+### Dataset Source
+
+[Telco Customer Churn – IBM Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+
+> **Note:** The dataset is sourced from Kaggle and is used for educational and analytical purposes. Please refer to the original dataset page for licensing and usage terms.
+
+---
+
+
 ## 🛠️ Tools & Technologies
 
 - **MySQL** — SQL analysis
+- **SQL** — Business-question analysis
 - **Python** — Exploratory Data Analysis (EDA)
 - **Pandas** — Data manipulation
 - **NumPy** — Numerical analysis
 - **Matplotlib & Seaborn** — Data visualization
 - **Power BI** — Interactive dashboard
+- **Excel** — Initial dataset handling
 - **GitHub** — Project documentation and version control
 
 ## 📋 Requirements
@@ -56,3 +67,35 @@ The dataset contains information about:
 - Understand why customers leave
 - Assess churn among high-value customers
 - Translate findings into retention insights and recommendations
+
+
+# 🔄 Project Workflow
+
+Raw Dataset
+     ↓
+Data Cleaning
+     ↓
+MySQL
+     ↓
+SQL Business Analysis
+     ↓
+Python EDA
+     ↓
+Power BI Dashboard
+     ↓
+Key Insights & Recommendations
+
+Data Cleaning
+
+The dataset was prepared before analysis by:
+
+Checking for missing values.
+Checking for duplicate customers.
+Validating customer records.
+Removing unnecessary geographic columns that were not required for the analysis.
+Checking numerical and categorical fields.
+Restoring/validating the Churn Value field.
+Validating churn labels and customer counts.
+Checking blank/null churn reasons.
+
+The cleaned customer data was then used for SQL analysis, Python EDA, and Power BI visualization.
