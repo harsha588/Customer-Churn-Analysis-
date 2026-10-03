@@ -101,6 +101,7 @@ The dataset was prepared before analysis by:
 The cleaned customer data was then used for SQL analysis, Python EDA, and Power BI visualization.
 
 
+
 SQL analysis was organized around five major objectives.
 
 ### Objective 1 — Overall Churn & Retention
