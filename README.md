@@ -208,7 +208,7 @@ Top Churn Reasons
 Customer filtering using slicers
 Dashboard Preview
 
-![Customer Churn Dashboard](images/customer_churn_dashboard.png)
+![Customer Churn Dashboard](images/churn_dashboard.png)
 
 
 ## 🔎 Key Findings
