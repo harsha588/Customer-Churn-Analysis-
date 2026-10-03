@@ -72,17 +72,17 @@ The dataset contains information about:
 ## 🔄 Project Workflow
 
 Raw Dataset
-     ↓
+     -->
 Data Cleaning
-     ↓
+     -->
 MySQL
-     ↓
+     -->
 SQL Business Analysis
-     ↓
+     -->
 Python EDA
-     ↓
+     -->
 Power BI Dashboard
-     ↓
+     -->
 Key Insights & Recommendations
 
 ### Data Cleaning
