@@ -281,26 +281,26 @@ Monitor churn among high-value customers and consider targeted retention strateg
 ## 📁 Project Structure
 
 ```text
-Customer-Churn-Analysis/
+Customer-Churn-Analysis-/
 │
 ├── README.md
 │
-├── sql/
-│   ├── 01_data_cleaning.sql
-│   ├── 02_overall_churn_retention.sql
-│   ├── 03_customer_segments.sql
-│   ├── 04_tenure_contract_service_churn.sql
-│   ├── 05_charges_billing_value_churn.sql
-│   └── 06_churn_reasons.sql
+├── sql
+│   ├── cleaning process(cc).sql
+│   ├── 01_overall_churn_retention.sql
+│   ├── 02_customer_segments.sql
+│   ├── 03_tenure_contract_service_churn.sql
+│   ├── 04_charges_billing_value_churn.sql
+│   └── 05_churn_reasons.sql
 │
-├── python/
+├── python
 │   └── customer_churn_eda.ipynb
 │
-├── powerbi/
-│   └── Customer_Churn_Retention_Analysis.pbix
+├── power bi
+│   └── churn_dashboard.pbix
 │
-└── images/
-    └── customer_churn_dashboard.png
+└── images
+    └── churn_dashboard_ss.png
 
 
 ---
