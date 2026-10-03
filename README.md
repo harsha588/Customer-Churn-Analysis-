@@ -103,7 +103,7 @@ The cleaned customer data was then used for SQL analysis, Python EDA, and Power 
 
 SQL analysis was organized around five major objectives.
 
-Objective 1 — Overall Churn & Retention
+# Objective 1 — Overall Churn & Retention
 
 Questions analyzed:
 
@@ -119,3 +119,117 @@ Total Customers	7,043
 Churned Customers	1,869
 Churn Rate	     26.54%
 Retention Rate 	73.46%
+
+
+# Objective 2 — Customer Segments
+
+Customer characteristics analyzed:
+
+Gender
+Senior Citizen status
+Partner status
+Dependents
+
+The analysis compares customer counts and churn rates across these characteristics.
+
+
+# Objective 3 — Tenure, Contract & Services
+
+The analysis examined:
+
+Tenure groups
+Contract types
+Internet Service
+Tech Support
+Online Security
+
+The analysis was used to identify groups with different observed churn rates.
+
+
+# Objective 4 — Charges, Billing & Customer Value
+
+The analysis examined:
+
+Average monthly charges
+Monthly charges by churn status
+Paperless billing
+Customer value using CLTV
+Average CLTV of churned customers
+Churn rates among higher-value customer segments
+
+
+# Objective 5 — Churn Reasons
+
+The analysis examined:
+
+Most common churn reasons
+Proportion of churn associated with each reason
+Characteristics associated with major churn reasons
+CLTV across churn reasons
+
+Churn reasons were analyzed only among customers whose Churn Label was Yes.
+
+
+🐍 Python Exploratory Data Analysis
+
+Python was used to perform exploratory data analysis and investigate patterns in the dataset.
+
+The EDA included:
+
+Dataset structure and overview
+Data quality checks
+Churn distribution
+Categorical variable analysis
+Numerical variable analysis
+Customer tenure analysis
+Charges analysis
+Customer value analysis
+Churn-related comparisons
+Correlation analysis between numerical variables
+Data visualization using Matplotlib and Seaborn
+
+The Python analysis provided additional exploratory insights before building the final Power BI dashboard.
+
+📊 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to provide a business-level view of customer churn.
+
+Dashboard Components
+Total Customers
+Churned Customers
+Churn Rate
+Retention Rate
+Churn Rate by Contract
+Churn Rate by Internet Service
+Churn Rate by Tenure
+Top Churn Reasons
+Customer filtering using slicers
+Dashboard Preview
+
+
+🔎 Key Findings
+
+The dashboard and analysis identified several notable churn patterns.
+
+Contract
+
+- Month-to-month customers had an observed churn rate of 42.71%, compared with 11.27% for one-year contracts and 2.83% for two-year contracts.
+
+Tenure
+
+- Customers with 0–12 months of tenure had an observed churn rate of 47.44%, while customers with 49+ months of tenure had a churn rate of 9.51%.
+
+Internet Service
+
+- Fiber optic customers had an observed churn rate of 41.89%, compared with 18.96% for DSL customers and 7.40% for customers without internet service.
+
+Overall Churn
+
+The dataset contains:
+
+- 7,043 customers
+- 1,869 churned customers
+- 26.54% churn rate
+- 73.46% retention rate
+
+These findings describe observed associations in the dataset and should not be interpreted as proof that a particular characteristic causes churn.
