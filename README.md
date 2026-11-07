@@ -303,9 +303,9 @@ Customer-Churn-Analysis-/
     └── churn_dashboard_ss.png
 
 
----
+```
 
-# 14. 📌 Project Status
+## 14. 📌 Project Status
 
 Since you have completed the project, keep this short:
 
@@ -322,7 +322,7 @@ Since you have completed the project, keep this short:
 - ✅ Retention Insights & Recommendations
 - ✅ GitHub Documentation
 
-
+```
 
 ## 👤 Author
 
