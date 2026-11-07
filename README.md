@@ -306,11 +306,7 @@ Customer-Churn-Analysis-/
 ```
 
 ## 14. 📌 Project Status
-
-Since you have completed the project, keep this short:
-
-```markdown
-## 📌 Project Status
+```
 
 **Completed** ✅
 
